@@ -10,8 +10,23 @@
 
 ## Installation :
 
+### Debian/Ubuntu-based Distros:
 * `apt update`
 * `apt install git curl php openssh-server -y`
+* `git clone git://github.com/Optane002/ZPhisher.git`
+* `cd ZPhisher`
+#### > Run : `bash ZPhisher.sh`
+
+### Arch-based Distros:
+* `sudo pacman -Syu`
+* `sudo pacman -S git curl php openssh`
+* `git clone git://github.com/Optane002/ZPhisher.git`
+* `cd ZPhisher`
+#### > Run : `bash ZPhisher.sh`
+
+### Fedora-based Distros:
+* `sudo dnf update -y`
+* `sudo dnf install git curl php openssh-server -y`
 * `git clone git://github.com/Optane002/ZPhisher.git`
 * `cd ZPhisher`
 #### > Run : `bash ZPhisher.sh`
@@ -19,6 +34,14 @@
 ## Single Command :
 ```
 apt update ; apt install git curl php openssh-server -y ; git clone git://github.com/Optane002/ZPhisher.git ; cd ZPhisher ; bash ZPhisher.sh
+```
+For Arch-based:
+```
+sudo pacman -Syu --noconfirm && sudo pacman -S git curl php openssh --noconfirm && git clone git://github.com/Optane002/ZPhisher.git && cd ZPhisher && bash ZPhisher.sh
+```
+For Fedora-based:
+```
+sudo dnf update -y && sudo dnf install git curl php openssh-server -y && git clone git://github.com/Optane002/ZPhisher.git && cd ZPhisher && bash ZPhisher.sh
 ```
 <br>
 <p align="center">
@@ -36,11 +59,11 @@ apt update ; apt install git curl php openssh-server -y ; git clone git://github
 #### > DarksecDevelopers (https://github.com/DarksecDevelopers)
 #### > UndeadSec (https://github.com/UndeadSec)
 #### > Equinockx (https://github.com/MoisesTapia)
+#### > Optane002 (https://github.com/Optane002)
 
 ## Tunelling Options :
 #### > Localhost (127.0.0.1)
 #### > NGROK (https://ngrok.com)
 #### > SERVEO (https://serveo.net)
 #### > LOCALHOSTRUN (https://localhost.run)
-
 
